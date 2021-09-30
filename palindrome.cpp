@@ -11,7 +11,9 @@
         //loop to find reverse
         do
         {
-            
+            digit = num % 10;
+            reverse = (reverse * 10) + digit;
+            num = num / 10;
         } 
         while (num != 0);
         cout << “The reverse of “<< temp <<” is “<< reverse << endl;
