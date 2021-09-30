@@ -11,8 +11,11 @@
         //loop to find reverse
         do
         {
-            
-        } while (num != 0);
+            digit = num % 10;
+            reverse = (reverse * 10) + digit;
+            num = num / 10; 
+        } 
+        while (num != 0);
         cout << “The reverse of “<< temp <<” is “<< reverse << endl;
         //checking for palindrome
         if (temp == reverse)
