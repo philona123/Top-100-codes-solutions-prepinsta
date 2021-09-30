@@ -1,9 +1,3 @@
-/*
-Author: Siddhant Pandy
-Program: Graphical representation of Sorting in command line
-Topic: Bubble Sort
-*/
-
 #include<iostream>
 #include<vector>
 #include <time.h> 
